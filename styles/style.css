@@ -75,6 +75,8 @@
 }
 
 .content {
+  margin: 0;
+  padding: 0;
 }
 
 .description {
@@ -124,6 +126,59 @@
   font-weight: 600;
 }
 
+.digits {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+}
+
+.section-title {
+  margin: 0 auto 20px auto;
+  width: 60%;
+  text-align: center;
+  text-align: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  margin: 0 auto 0 auto;
+  width: 60%;
+  text-align: center;
+  text-align: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 1100px;
+  flex-wrap: wrap;
+  margin: 0 0 100px;
+}
+
+.table_cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table_heading {
+  text-align: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.table_text {
+  text-align: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
