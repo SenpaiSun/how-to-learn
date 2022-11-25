@@ -107,7 +107,7 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  margin-left: auto
+  margin-left: auto;
 }
 
 .two-columns__paragraph {
@@ -285,13 +285,10 @@
 
 .footer__column_content_copyright {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
   margin: 0;
-}
-
-.footer__column_content_copyright {
-  flex-direction: column;
 }
 
 .footer__author {
