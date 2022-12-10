@@ -1,0 +1,5 @@
+@keyframes rotate-form {
+  to {
+    transform: rotateZ(360deg)
+  }
+}
