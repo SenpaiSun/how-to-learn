@@ -3,3 +3,7 @@
     transform: rotateZ(360deg);
   }
 }
+
+.rotation {
+  animation: rotate-form 20s infinite linear;
+}

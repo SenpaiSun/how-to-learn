@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./page/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Научиться учиться</title>
   </head>
   <body>
@@ -12,9 +11,9 @@
       <header class="header">
         <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум">
         <h1 class="header__title">Научиться учиться</h1>
-        <p class="header__subtitle"> Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link" href="#"> Узнать →</a></p>
+        <p class="header__subtitle"> Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link" href="#" target="_blank"> Узнать &rarr;</a></p>
         <img class="header__main-illustration" src="./images/header-image.png" alt="Картина 'Опять Двойка'">
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
       <main class="content">
         <section aria-label="Проблемы" class="description">
@@ -47,7 +46,7 @@
               <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
             </li>
             <li class="cards__item">
-              <img class="cards__image" src="./images/cards-question.png" alt="Обложка книги 'HR in der Falle' от Klaus D. Mittorp">
+              <img class="cards__image" src="./images/cards-question.png" alt="Обложка книги 'Отдел кадров в ловушке' от Клаус Д. Митторп">
               <h3 class="cards__title">Вопросы</h3>
               <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
             </li>
@@ -62,8 +61,8 @@
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="video__iframe" width="560" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </section>
         <section aria-label="Барбара Оакли" class="oakley">
@@ -77,7 +76,7 @@
         <section class="feynman">
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a class="feynman__link" href="#">Подробнее →</a>
+          <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -124,11 +123,11 @@
             <p class="khan__author">Салман Хан</p>
             <h2 class="khan__title">Весь мир — школа</h2>
             <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
-            <h3 class="khan__quote-author">Джордж Лукас</h3>
+            <p class="khan__quote-author">Джордж Лукас</p>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
               <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга Салман Хан - 'Весь мир-школа'">
-              <a class="khan__buy-link" href="#">Купить книгу →</a>
+              <a class="khan__buy-link" href="#" target="_blank">Купить книгу &rarr;</a>
             </div>
           </div>
         </section>
@@ -177,16 +176,16 @@
               <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
             </li>
           </ul>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
         </section>
         <section  class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>
           <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
           <div class="resources__logo-zone">
-            <a href="#"><img src="./images/logo/resources-arzamas.svg" class="resources__link" alt="Армазас"></a>
-            <a href="#"><img src="./images/logo/resources-n1.svg" class="resources__link" alt="Номер 1"></a>
-            <a href="#"><img src="./images/logo/resources-strelka.svg" class="resources__link" alt="Стрелка"></a>
-            <a href="#"><img src="./images/logo/resources-polka.svg" class="resources__link" alt="Полка"></a>
+            <a href="#" class="resources__link" target="_blank"><img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="Армазас"></a>
+            <a href="#" class="resources__link" target="_blank"><img src="./images/logo/resources-n1.svg" class="resources__logo" alt="Номер 1"></a>
+            <a href="#" class="resources__link" target="_blank"><img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="Стрелка"></a>
+            <a href="#" class="resources__link" target="_blank"><img src="./images/logo/resources-polka.svg" class="resources__logo" alt="Полка"></a>
           </div>
         </section>
       </main>
@@ -199,17 +198,17 @@
           <div class="footer__column footer__column_content_info">
             <h3 class="footer__column-heading">О Практикуме</h3>
             <nav class="footer__column-links">
-              <a href="#" class="footer__column-link">Главная</a>
-              <a href="#" class="footer__column-link">Концепция</a>
-              <a href="#" class="footer__column-link">Наставники</a>
+              <a href="#" class="footer__column-link" target="_blank">Главная</a>
+              <a href="#" class="footer__column-link" target="_blank">Концепция</a>
+              <a href="#" class="footer__column-link" target="_blank">Наставники</a>
             </nav>
           </div>
           <div class="footer__column footer__column_content_social">
             <h3 class="footer__column-heading">Соцсети</h3>
             <nav class="footer__column-links">
-              <a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка YouTube">YouTube</a>
-              <a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка VK">ВКонтакте</a>
-              <a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Иконка TikTok">TikTok</a>
+              <a href="#" class="footer__column-link" target="_blank"><img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка YouTube">YouTube</a>
+              <a href="#" class="footer__column-link" target="_blank"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка Вконтакте">ВКонтакте</a>
+              <a href="#" class="footer__column-link" target="_blank"><img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Иконка TikTok">TikTok</a>
             </nav>
           </div>
         </section>
